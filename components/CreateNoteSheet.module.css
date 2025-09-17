@@ -1,0 +1,11 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form-body {
+  padding: var(--spacing-6);
+  flex-grow: 1;
+  overflow-y: auto;
+}
